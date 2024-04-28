@@ -7,7 +7,7 @@ import loadConfig from './utils/loadConfig';
 const tasksIntegration = ({ config: _themeConfig = 'src/config.yaml' } = {}) => {
   let cfg;
   return {
-    name: 'AstroWind:tasks',
+    name: 'JoBase:tasks',
 
     hooks: {
       'astro:config:setup': async ({
